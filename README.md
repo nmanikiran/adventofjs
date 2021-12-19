@@ -7,13 +7,12 @@
 These are the starter files and a suggested solution to the Pomodoro Timer.
 You can find more details about the challenge by [logging into Podia.](https://store.selfteach.me/login)
 
-## Challenge
+## [Day1](https://nmanikiran.github.io/adventofjs/pomodoroTimer/)
 
-Within the _STARTER-FILES_ folder, you'll find everything you need to get started.
+# Day 2 - eCommerce
 
-Users should be able to:
+## Overview
 
-- Start and Stop the Timer
-- Click on the gear icon to change the length (minutes and seconds) for the timer.
+In this project, we're creating an eCommerce component.
 
-## demo
+## [Day2](https://nmanikiran.github.io/adventofjs/cart/)

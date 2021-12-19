@@ -1,0 +1,30 @@
+.totals {
+  padding: 35px 30px;
+}
+
+.line-item {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.line-item .label {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 60%;
+}
+
+.line-item .amount {
+  width: 40%;
+}
+
+.line-item.total .price {
+  color: #6b00f5;
+}
+.price,
+.subtotal {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: bold;
+}
