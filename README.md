@@ -32,3 +32,11 @@ In this project, we're creating a keyboard. I love this project because at first
 In this project, we're going to create a computer keyboard.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/eyesOnTheScreen/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/eyesOnTheScreen)
+
+# Day 5 - multi select
+
+## Overview
+
+In this project, we're going to check multiple checkboxes at one time.
+
+## [demo](https://nmanikiran.github.io/adventofjs/multiSelect/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/multiSelect)
