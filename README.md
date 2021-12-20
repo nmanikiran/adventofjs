@@ -24,3 +24,11 @@ In this project, we're creating an eCommerce component.
 In this project, we're creating a keyboard. I love this project because at first glance it seems easy, but there are some more complicated steps involved.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/piano/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/piano)
+
+# Day 4 - Eyes on the Screen
+
+## Overview
+
+In this project, we're going to create a computer keyboard.
+
+## [demo](https://nmanikiran.github.io/adventofjs/eyesOnTheScreen/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/eyesOnTheScreen)
