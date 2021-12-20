@@ -7,7 +7,7 @@
 These are the starter files and a suggested solution to the Pomodoro Timer.
 You can find more details about the challenge by [logging into Podia.](https://store.selfteach.me/login)
 
-## [demo](https://nmanikiran.github.io/adventofjs/pomodoroTimer/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/pomodoroTimer)
+## [demo](https://nmanikiran.github.io/adventofjs/pomodoroTimer) | [code](https://github.com/nmanikiran/adventofjs/tree/master/pomodoroTimer)
 
 # Day 2 - eCommerce
 
@@ -15,7 +15,7 @@ You can find more details about the challenge by [logging into Podia.](https://s
 
 In this project, we're creating an eCommerce component.
 
-## [demo](https://nmanikiran.github.io/adventofjs/cart/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/cart)
+## [demo](https://nmanikiran.github.io/adventofjs/cart) | [code](https://github.com/nmanikiran/adventofjs/tree/master/cart)
 
 # Day 3 - Piano
 
@@ -23,7 +23,7 @@ In this project, we're creating an eCommerce component.
 
 In this project, we're creating a keyboard. I love this project because at first glance it seems easy, but there are some more complicated steps involved.
 
-## [demo](https://nmanikiran.github.io/adventofjs/piano/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/piano)
+## [demo](https://nmanikiran.github.io/adventofjs/piano) | [code](https://github.com/nmanikiran/adventofjs/tree/master/piano)
 
 # Day 4 - Eyes on the Screen
 
@@ -31,7 +31,7 @@ In this project, we're creating a keyboard. I love this project because at first
 
 In this project, we're going to create a computer keyboard.
 
-## [demo](https://nmanikiran.github.io/adventofjs/eyesOnTheScreen/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/eyesOnTheScreen)
+## [demo](https://nmanikiran.github.io/adventofjs/eyesOnTheScreen) | [code](https://github.com/nmanikiran/adventofjs/tree/master/eyesOnTheScreen)
 
 # Day 5 - multi select
 
@@ -39,7 +39,7 @@ In this project, we're going to create a computer keyboard.
 
 In this project, we're going to check multiple checkboxes at one time.
 
-## [demo](https://nmanikiran.github.io/adventofjs/multiSelect/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/multiSelect)
+## [demo](https://nmanikiran.github.io/adventofjs/multiSelect) | [code](https://github.com/nmanikiran/adventofjs/tree/master/multiSelect)
 
 # Day 6 - Range Slider
 
@@ -47,7 +47,7 @@ In this project, we're going to check multiple checkboxes at one time.
 
 In this project, we're creating a Range Slider. As you move the knob, the dollar amount above will update.
 
-## [demo](https://nmanikiran.github.io/adventofjs/rangeSlider/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/rangeSlider)
+## [demo](https://nmanikiran.github.io/adventofjs/rangeSlider) | [code](https://github.com/nmanikiran/adventofjs/tree/master/rangeSlider)
 
 # Day 7 - Tip Calculator
 
@@ -55,4 +55,4 @@ In this project, we're creating a Range Slider. As you move the knob, the dollar
 
 In this project, we're creating a Tip Calculator.
 
-## [demo](https://nmanikiran.github.io/adventofjs/tipCalculator /) | [code](https://github.com/nmanikiran/adventofjs/tree/master/tipCalculator)
+## [demo](https://nmanikiran.github.io/adventofjs/tipCalculator) | [code](https://github.com/nmanikiran/adventofjs/tree/master/tipCalculator)
