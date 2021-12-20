@@ -40,3 +40,19 @@ In this project, we're going to create a computer keyboard.
 In this project, we're going to check multiple checkboxes at one time.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/multiSelect/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/multiSelect)
+
+# Day 6 - Range Slider
+
+## Overview
+
+In this project, we're creating a Range Slider. As you move the knob, the dollar amount above will update.
+
+## [demo](https://nmanikiran.github.io/adventofjs/rangeSlider/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/rangeSlider)
+
+# Day 7 - Tip Calculator
+
+## Overview
+
+In this project, we're creating a Tip Calculator.
+
+## [demo](https://nmanikiran.github.io/adventofjs/tipCalculator /) | [code](https://github.com/nmanikiran/adventofjs/tree/master/tipCalculator)
