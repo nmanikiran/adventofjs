@@ -7,7 +7,7 @@
 These are the starter files and a suggested solution to the Pomodoro Timer.
 You can find more details about the challenge by [logging into Podia.](https://store.selfteach.me/login)
 
-## [Day1](https://nmanikiran.github.io/adventofjs/pomodoroTimer/)
+## [demo](https://nmanikiran.github.io/adventofjs/pomodoroTimer/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/pomodoroTimer)
 
 # Day 2 - eCommerce
 
@@ -15,4 +15,12 @@ You can find more details about the challenge by [logging into Podia.](https://s
 
 In this project, we're creating an eCommerce component.
 
-## [Day2](https://nmanikiran.github.io/adventofjs/cart/)
+## [demo](https://nmanikiran.github.io/adventofjs/cart/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/cart)
+
+# Day 3 - Piano
+
+## Overview
+
+In this project, we're creating a keyboard. I love this project because at first glance it seems easy, but there are some more complicated steps involved.
+
+## [demo](https://nmanikiran.github.io/adventofjs/piano/) | [code](https://github.com/nmanikiran/adventofjs/tree/master/piano)
