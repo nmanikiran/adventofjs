@@ -78,3 +78,11 @@ In this project, we're creating an Image Carousel.
 In this project, we're creating a Password Verifier.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/digitCode) | [code](https://github.com/nmanikiran/adventofjs/tree/master/digitCode)
+
+# Day 11 - Expanding and Collapsing
+
+## Overview
+
+In this project, we're going to create expanding and collapsing sections. This functionality can be found in accordions or toggle displays.
+
+## [demo](https://nmanikiran.github.io/adventofjs/toogle) | [code](https://github.com/nmanikiran/adventofjs/tree/master/toogle)
