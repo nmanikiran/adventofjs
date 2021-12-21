@@ -63,10 +63,18 @@ In this project, we're creating a Tip Calculator.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/weather) | [code](https://github.com/nmanikiran/adventofjs/tree/master/weather)
 
-# Day 8 - Image Carousel
+# Day 9 - Image Carousel
 
 ## Overview
 
 In this project, we're creating an Image Carousel.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/carousel) | [code](https://github.com/nmanikiran/adventofjs/tree/master/carousel)
+
+# Day 10 - Password Verifier
+
+## Overview
+
+In this project, we're creating a Password Verifier.
+
+## [demo](https://nmanikiran.github.io/adventofjs/digitCode) | [code](https://github.com/nmanikiran/adventofjs/tree/master/digitCode)
