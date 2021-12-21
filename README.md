@@ -56,3 +56,17 @@ In this project, we're creating a Range Slider. As you move the knob, the dollar
 In this project, we're creating a Tip Calculator.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/tipCalculator) | [code](https://github.com/nmanikiran/adventofjs/tree/master/tipCalculator)
+
+# Day 8 - Weather
+
+## Overview
+
+## [demo](https://nmanikiran.github.io/adventofjs/weather) | [code](https://github.com/nmanikiran/adventofjs/tree/master/weather)
+
+# Day 8 - Image Carousel
+
+## Overview
+
+In this project, we're creating an Image Carousel.
+
+## [demo](https://nmanikiran.github.io/adventofjs/carousel) | [code](https://github.com/nmanikiran/adventofjs/tree/master/carousel)
