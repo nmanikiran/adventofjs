@@ -86,3 +86,11 @@ In this project, we're creating a Password Verifier.
 In this project, we're going to create expanding and collapsing sections. This functionality can be found in accordions or toggle displays.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/toogle) | [code](https://github.com/nmanikiran/adventofjs/tree/master/toogle)
+
+# Day 12 - Rock, Paper, Scissors
+
+## Overview
+
+In this project, we're creating a Rock, Paper, Scissors game.
+
+## [demo](https://nmanikiran.github.io/adventofjs/game) | [code](https://github.com/nmanikiran/adventofjs/tree/master/game)
