@@ -126,3 +126,11 @@ In this project, we're creating a YouTube Video Gallery.
 In this project, we're creating a Star Rating.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/rating) | [code](https://github.com/nmanikiran/adventofjs/tree/master/rating)
+
+# Day 17 - Table of Contents
+
+## Overview
+
+In this project, we're creating a Table of Contents.
+
+## [demo](https://nmanikiran.github.io/adventofjs/scroll) | [code](https://github.com/nmanikiran/adventofjs/tree/master/scroll)
