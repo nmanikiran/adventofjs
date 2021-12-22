@@ -118,3 +118,11 @@ In this project, we're creating a Calendar Viewer.
 In this project, we're creating a YouTube Video Gallery.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/youtube) | [code](https://github.com/nmanikiran/adventofjs/tree/master/youtube)
+
+# Day 16 - Star Rating
+
+## Overview
+
+In this project, we're creating a Star Rating.
+
+## [demo](https://nmanikiran.github.io/adventofjs/rating) | [code](https://github.com/nmanikiran/adventofjs/tree/master/rating)

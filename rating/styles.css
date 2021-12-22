@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.star-rating {
+  display: flex;
+  gap: 30px;
+}
+
+.star svg {
+  stroke: #757575;
+  stroke-width: 10px;
+}
+
+.star-1 .star-1 svg,
+.star-2 .star-1 svg,
+.star-2 .star-2 svg,
+.star-3 .star-1 svg,
+.star-3 .star-2 svg,
+.star-3 .star-3 svg,
+.star-4 .star-1 svg,
+.star-4 .star-2 svg,
+.star-4 .star-3 svg,
+.star-4 .star-4 svg,
+.star-5 .star-1 svg,
+.star-5 .star-2 svg,
+.star-5 .star-3 svg,
+.star-5 .star-4 svg,
+.star-5 .star-5 svg {
+  stroke-width: 0;
+  fill: #FFD200;
+}
