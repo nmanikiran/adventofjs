@@ -95,10 +95,18 @@ In this project, we're creating a Rock, Paper, Scissors game.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/game) | [code](https://github.com/nmanikiran/adventofjs/tree/master/game)
 
-# Day 13 of
+# Day 13 - Custom Modal
 
 ## Overview
 
 In this project, we're going to create a Custom Modal
 
 ## [demo](https://nmanikiran.github.io/adventofjs/modal) | [code](https://github.com/nmanikiran/adventofjs/tree/master/modal)
+
+# Day 14 - Calendar Picker
+
+## Overview
+
+In this project, we're creating a Calendar Viewer.
+
+## [demo](https://nmanikiran.github.io/adventofjs/calendar) | [code](https://github.com/nmanikiran/adventofjs/tree/master/calendar)
