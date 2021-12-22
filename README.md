@@ -110,3 +110,11 @@ In this project, we're going to create a Custom Modal
 In this project, we're creating a Calendar Viewer.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/calendar) | [code](https://github.com/nmanikiran/adventofjs/tree/master/calendar)
+
+# Day 15 - YouTube Video Gallery
+
+## Overview
+
+In this project, we're creating a YouTube Video Gallery.
+
+## [demo](https://nmanikiran.github.io/adventofjs/youtube) | [code](https://github.com/nmanikiran/adventofjs/tree/master/youtube)
