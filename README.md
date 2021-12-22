@@ -94,3 +94,11 @@ In this project, we're going to create expanding and collapsing sections. This f
 In this project, we're creating a Rock, Paper, Scissors game.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/game) | [code](https://github.com/nmanikiran/adventofjs/tree/master/game)
+
+# Day 13 of
+
+## Overview
+
+In this project, we're going to create a Custom Modal
+
+## [demo](https://nmanikiran.github.io/adventofjs/modal) | [code](https://github.com/nmanikiran/adventofjs/tree/master/modal)
