@@ -143,6 +143,14 @@ In this project, we're creating a Password Generator.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/password) | [code](https://github.com/nmanikiran/adventofjs/tree/master/password)
 
+# Day 21 - Exprenses
+
+## Overview
+
+In this project, we're going to create a Simplified Budget
+
+## [demo](https://nmanikiran.github.io/adventofjs/exprenses) | [code](https://github.com/nmanikiran/adventofjs/tree/master/exprenses)
+
 # Day 22 - Credit Card
 
 ## Overview
