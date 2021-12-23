@@ -134,3 +134,19 @@ In this project, we're creating a Star Rating.
 In this project, we're creating a Table of Contents.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/scroll) | [code](https://github.com/nmanikiran/adventofjs/tree/master/scroll)
+
+# Day 17 - Password Generator
+
+## Overview
+
+In this project, we're creating a Password Generator.
+
+## [demo](https://nmanikiran.github.io/adventofjs/password) | [code](https://github.com/nmanikiran/adventofjs/tree/master/password)
+
+# Day 22 - Credit Card
+
+## Overview
+
+In this project, we're going to create a Credit Card form.
+
+## [demo](https://nmanikiran.github.io/adventofjs/card) | [code](https://github.com/nmanikiran/adventofjs/tree/master/card)
