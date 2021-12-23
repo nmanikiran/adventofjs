@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap');
+
+:root {
+  --primary: #1400FF;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 800;
+  color: black;
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  border: 2px solid #D4D4D4;
+  border-radius: 4px;
+  padding:  0 20px;
+  width: 450px;
+  height: 62px;
+  margin-top: 10px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+  border-color: var(--primary);
+  label: var(--primary);
+}
+
+label {
+  display: inline-block;
+  color: var(--primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  position: absolute;
+  background: white;
+  padding: 0 5px;
+  left: 20px;
+  top: 0;
+  pointer-events: none;
+  transition: all .25s ease-in-out;
+}
+
+input[type=text]:placeholder-shown + label,
+input[type=email]:placeholder-shown + label,
+input[type=password]:placeholder-shown + label {
+  font-size: 1.5rem;
+  top: 31px;
+}
+
+input[type=text]:focus + label,
+input[type=email]:focus + label,
+input[type=password]:focus + label {
+  font-size: 0.875rem;
+  top: 0;
+}
+
+.show-hide {
+  border: none;
+  background: url('./images/show.svg') left top no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 405px;
+  top: 32px;
+  cursor: pointer;
+}
+
+.show .show-hide {
+  background-image: url('./images/hide.svg');
+  background-size: 32px 32px;
+  top: 28px;
+}
+
+input[type="submit"] {
+  background: var(--primary);
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  border: none;
+  width: 450px;
+  height: 62px;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.error,
+.success {
+  position: absolute;
+  top: 30px;
+  left: 460px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: #FF0000;
+}
+
+.success {
+  color: #5FA12B;
+}
+
+.error img,
+.success img {
+  margin-right: 5px;
+}
