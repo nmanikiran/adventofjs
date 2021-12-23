@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+  --primary: #FBFF00;
+  --secondary: #8d58ff;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr;
+  margin: 0 200px;
+  min-height: 100vh;
+}
+
+aside {
+  border-right: 4px solid var(--primary);
+  padding: 100px 35px 0 0;
+}
+
+aside ul {
+  padding: 0;
+  margin: 50px 0 0 0;
+  list-style-type: none;
+}
+
+aside ul li {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+aside ul li.selected:before,
+aside ul li.selected:after {
+  width: 0;
+  height: 0;
+  content: '';
+  display: block;
+  position: absolute;
+  top: -15px;
+}
+
+aside ul li.selected:before {
+  border: 35px solid var(--primary);
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-right: 35px solid transparent;
+  right: -108px;
+  z-index: 1;
+}
+
+aside ul li.selected:after {
+  border: 35px solid black;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-right: 35px solid transparent;
+  right: -101px;
+  z-index: 2;
+}
+
+
+aside ul li a {
+  text-decoration: none;
+}
+
+aside .episode {
+  color: var(--primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.12em;
+  margin-bottom: 5px;
+}
+
+aside .title {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+aside a:hover .title {
+  color: var(--secondary);
+}
+
+main {
+  padding: 100px 0 0 75px;
+  display: flex;
+  gap: 50px;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  margin: 0 0 25px 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a.more {
+  background: url('./images/arrow.svg') right center no-repeat;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--primary);
+  text-transform: uppercase;
+  padding-right: 30px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+a.more:hover {
+  padding-right: 35px;
+}

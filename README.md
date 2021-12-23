@@ -143,6 +143,14 @@ In this project, we're creating a Password Generator.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/password) | [code](https://github.com/nmanikiran/adventofjs/tree/master/password)
 
+# Day 20 - Tabs
+
+## Overview
+
+In this project, we're creating Tabbed Content.
+
+## [demo](https://nmanikiran.github.io/adventofjs/tabs) | [code](https://github.com/nmanikiran/adventofjs/tree/master/tabs)
+
 # Day 21 - Exprenses
 
 ## Overview
