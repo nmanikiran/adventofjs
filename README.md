@@ -174,3 +174,11 @@ In this project, we're going to create a Simplified Budget
 In this project, we're going to create a Credit Card form.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/card) | [code](https://github.com/nmanikiran/adventofjs/tree/master/card)
+
+## Day 23 - Toaster
+
+### Overview
+
+In this project, we're going to create a Toaster.
+
+## [demo](https://nmanikiran.github.io/adventofjs/toaster) | [code](https://github.com/nmanikiran/adventofjs/tree/master/toaster)
