@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;700&display=swap');
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1F7F4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #31292F;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+input[type=text] {
+  font-family: 'Roboto Mono', monospace;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 24px #CADBD2;
+  border-radius: 20px;
+  font-family: Roboto Mono;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+  width: 600px;
+  height: 100px;
+  border: none;
+  margin-bottom: 40px;
+  padding: 0 40px;
+  margin-right: 18px;
+}
+
+.copy {
+  background: none;
+  border: none;
+  color: #7DA9AE;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  height: 100px;
+  margin-bottom: 40px;
+  min-width: 140px;
+}
+
+.copy svg {
+  fill: currentColor;
+  margin-right: 0px;
+}
+
+.copy span {
+  display: none;
+}
+
+.copy.copied {
+  color: #4A9661;
+  font-weight: bold;
+}
+
+.copy.copied span {
+  display: block;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #7DA9AE;
+  cursor: pointer;
+  position: relative;
+  top: -12px;
+}
+
+input[type=range]::-moz-range-thumb {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #7DA9AE;
+  cursor: pointer;
+  position: relative;
+  top: -12px;
+}
+
+input[type=range]::-ms-thumb {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #7DA9AE;
+  cursor: pointer;
+  position: relative;
+  top: -12px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  background: #CEDFE1;
+  border-radius: 4px;
+  width: 385px;
+  height: 9px;
+}
+
+input[type=range] {
+  width: 385px;
+  margin-right: 35px;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label {
+  background: url("images/checkbox--unchecked.svg") left top no-repeat;
+  padding-left: 50px;
+  min-height: 35px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + label {
+  background: url("images/checkbox--checked.svg") left top no-repeat;
+}
