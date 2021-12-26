@@ -182,3 +182,11 @@ In this project, we're going to create a Credit Card form.
 In this project, we're going to create a Toaster.
 
 ## [demo](https://nmanikiran.github.io/adventofjs/toaster) | [code](https://github.com/nmanikiran/adventofjs/tree/master/toaster)
+
+## Day 24 - Pagination
+
+### Overview
+
+In this project, we're creating a Dynamic Table with Pagination.
+
+## [demo](https://nmanikiran.github.io/adventofjs/pagination) | [code](https://github.com/nmanikiran/adventofjs/tree/master/pagination)
