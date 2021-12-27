@@ -257,29 +257,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const $sorts = document.querySelectorAll('button.sort');
   $totalPages.innerText = totalPages;
 
-  $sorts.forEach((sort, index) => {
-    sort.addEventListener('click', () => {
-      const ascending = document.querySelector('.sort.ascending');
-      const descending = document.querySelector('.sort.descending');
-      const classList = Array.from(sort.classList);
+  const handleSort = (sort, index) => {
+    const key = Object.keys(data[0])[index];
+    const ascending = document.querySelector('.sort.ascending');
+    const descending = document.querySelector('.sort.descending');
+    const classList = Array.from(sort.classList);
 
-      if (ascending) ascending.classList.remove('ascending');
-      if (descending) descending.classList.remove('descending');
-      if (classList.includes('ascending')) {
-        sort.classList.remove('ascending');
-        sort.classList.add('descending');
+    if (ascending) ascending.classList.remove('ascending');
+    if (descending) descending.classList.remove('descending');
+    if (classList.includes('ascending')) {
+      sort.classList.remove('ascending');
+      sort.classList.add('descending');
 
-        renderPageItems(currentPage, Object.keys(data[0])[index], 'descending');
-      } else {
-        sort.classList.add('ascending');
-        sort.classList.remove('descending');
-        renderPageItems(currentPage, Object.keys(data[0])[index], 'ascending');
-      }
-    });
-  });
+      renderPageItems(currentPage, key, 'descending');
+    } else {
+      sort.classList.add('ascending');
+      sort.classList.remove('descending');
+      renderPageItems(currentPage, key, 'ascending');
+    }
+  };
+
+  const handlePreviousClick = () => {
+    currentPage--;
+    if (currentPage < 1) {
+      currentPage = 1;
+      return;
+    }
+    renderPageItems(currentPage);
+  };
+
+  const handleNextClick = () => {
+    currentPage++;
+    if (currentPage > totalPages) {
+      currentPage = totalPages;
+      return;
+    }
+    renderPageItems(currentPage);
+  };
 
   const renderPageItems = (page = 1, prop = 'id', order = 'ascending') => {
     tbody.innerHTML = '';
+    $currentPage.value = page;
 
     pageIndex = page - 1;
     const pageItems = data.slice().splice(pageIndex * pageLength, pageLength);
@@ -304,19 +322,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  $next.addEventListener('click', () => {
-    currentPage++;
-    if (currentPage > totalPages) return;
-    renderPageItems(currentPage);
-    $currentPage.value = currentPage;
+  $sorts.forEach((sort, index) => {
+    sort.addEventListener('click', () => handleSort(sort, index));
   });
 
-  $prev.addEventListener('click', () => {
-    currentPage--;
-    if (currentPage < 1) return;
-    renderPageItems(currentPage);
-    $currentPage.value = currentPage;
-  });
+  $next.addEventListener('click', handleNextClick);
+
+  $prev.addEventListener('click', handlePreviousClick);
 
   renderPageItems();
 });
